@@ -16,11 +16,11 @@ const Router = () => {
         <Navbar />
 
       <Routes>
-        <Route path='/' element={<HomeCards />} />
-        <Route path='/customersupport' element={<CustomerSupport />} />
-        <Route path='/services' element={<ServicesPage />} />
-        <Route path='/cart' element={<Cart />} />
-        <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/Local-Service-Marketplace/' element={<HomeCards />} />
+        <Route path='/Local-Service-Marketplace/customersupport' element={<CustomerSupport />} />
+        <Route path='/Local-Service-Marketplace/services' element={<ServicesPage />} />
+        <Route path='/Local-Service-Marketplace/cart' element={<Cart />} />
+        <Route path='/Local-Service-Marketplace/dashboard' element={<Dashboard />} />
       </Routes>
     </BrowserRouter>
   )

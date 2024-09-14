@@ -21,7 +21,7 @@ const ProfileDropdown = () => {
                 </div>
                 <div className="dropDownItem">
                     <img src={DashboardIcon} alt='' />
-                    <li><a href='/dashboard'>Dashboard</a></li>
+                    <li><a href='/Local-Service-Marketplace/dashboard'>Dashboard</a></li>
                 </div>
                 <div className="dropDownItem">
                     <img src={SettingsIcon} alt='' />

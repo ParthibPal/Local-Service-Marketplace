@@ -116,13 +116,13 @@ const HomeCards = () => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >
-            <SwiperSlide><img src="/images/Interior Design.jpg" /></SwiperSlide>
-            <SwiperSlide><img src="/images/Cleaning Services.jpg" /></SwiperSlide>
-            <SwiperSlide><img src="/images/Music Lessons.jpg" /></SwiperSlide>
-            <SwiperSlide><img src="/images/Event Planning.jpg" /></SwiperSlide>
-            <SwiperSlide><img src="/images/Electrician Services.jpg" /></SwiperSlide>
-            <SwiperSlide><img src="/images/Web Development.jpg" /></SwiperSlide>
-            <SwiperSlide><img src="/images/Photo Services.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Interior Design.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Cleaning Services.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Music Lessons.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Event Planning.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Electrician Services.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Web Development.jpg" /></SwiperSlide>
+            <SwiperSlide><img src="/Local-Service-Marketplace/images/Photo Services.jpg" /></SwiperSlide>
           </Swiper>
         </div>
 
@@ -296,18 +296,18 @@ const HomeCards = () => {
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <SwiperSlide><Card imageSrc="/images/Personal Chef.jpg" name="Personal Chef" desc="Enjoy gourmet meals prepared by a professional chef at home." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Lawn Care Services.jpg" name="Lawn Care Services" desc="Keep your lawn healthy and well-maintained." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Painting Services.jpg" name="Painting Services" desc="Intexterior painting services for homes and businesses." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Event Planning.jpg" name="Event Planning" desc="Plan and organize memorable events with professional assistance." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Tutoring Services.jpg" name="Tutoring Services" desc="Personalized tutoring to help you excel academically." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Fitness Training.jpg" name="Fitness Training" desc="Personalized fitness plans and training sessions." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Legal Services.jpg" name="Legal Services" desc="Legal advice and services from experienced professionals." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Yoga Classes.jpg" name="Yoga Classes" desc="Practice yoga and improve your physical and mental well-being." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Car Repair Services.jpg" name="Car Repair Services" desc="Expert repair and maintenance for your vehicle." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Music Lessons.jpg" name="Music Lessons" desc="Learn to play an instrument or improve your musical skills." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Carpet Cleaning.jpg" name="Carpet Cleaning" desc="Deep cleaning solutions for carpets and rugs." /></SwiperSlide>
-          <SwiperSlide><Card imageSrc="/images/Personal Stylist.jpg" name="Personal Stylist" desc="Receive personalized fashion advice and styling services." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Personal Chef.jpg" name="Personal Chef" desc="Enjoy gourmet meals prepared by a professional chef at home." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Lawn Care Services.jpg" name="Lawn Care Services" desc="Keep your lawn healthy and well-maintained." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Painting Services.jpg" name="Painting Services" desc="Intexterior painting services for homes and businesses." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Event Planning.jpg" name="Event Planning" desc="Plan and organize memorable events with professional assistance." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Tutoring Services.jpg" name="Tutoring Services" desc="Personalized tutoring to help you excel academically." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Fitness Training.jpg" name="Fitness Training" desc="Personalized fitness plans and training sessions." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Legal Services.jpg" name="Legal Services" desc="Legal advice and services from experienced professionals." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Yoga Classes.jpg" name="Yoga Classes" desc="Practice yoga and improve your physical and mental well-being." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Car Repair Services.jpg" name="Car Repair Services" desc="Expert repair and maintenance for your vehicle." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Music Lessons.jpg" name="Music Lessons" desc="Learn to play an instrument or improve your musical skills." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Carpet Cleaning.jpg" name="Carpet Cleaning" desc="Deep cleaning solutions for carpets and rugs." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="/Local-Service-Marketplace/images/Personal Stylist.jpg" name="Personal Stylist" desc="Receive personalized fashion advice and styling services." /></SwiperSlide>
 
 
 

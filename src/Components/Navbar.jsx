@@ -20,11 +20,11 @@ const Navbar = () => {
                         <img src={Logo} />
                     </div>
                     <div className='links'>
-                        <label><NavLink to='/'>Home</NavLink></label>
-                        <label><NavLink to='/services'>Services</NavLink></label>
-                        <label><NavLink to='/customersupport'>Customer Support</NavLink></label>
+                        <label><NavLink to='/Local-Service-Marketplace/'>Home</NavLink></label>
+                        <label><NavLink to='/Local-Service-Marketplace/services'>Services</NavLink></label>
+                        <label><NavLink to='/Local-Service-Marketplace/customersupport'>Customer Support</NavLink></label>
                     </div>
-                    <div className='cart-logo' onClick={() => navigate('/cart')}>
+                    <div className='cart-logo' onClick={() => navigate('/Local-Service-Marketplace/cart')}>
                         <i class="fa-solid fa-cart-shopping "></i>
                         <label>4</label> 
                     </div>
