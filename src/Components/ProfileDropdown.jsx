@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Component_css/ProfileDropdown.css";
+import { Link } from 'react-router-dom';
 import ProfileIcon from "../Images/profileIcon.png";
 import SettingsIcon from "../Images/settingsIcon.png";
 import LogoutIcon from "../Images/logoutIcon.png";
@@ -21,7 +22,7 @@ const ProfileDropdown = () => {
                 </div>
                 <div className="dropDownItem">
                     <img src={DashboardIcon} alt='' />
-                    <li><a href='/Local-Service-Marketplace/dashboard'>Dashboard</a></li>
+                    <li><Link to='/Local-Service-Marketplace/dashboard'>Dashboard</Link></li>
                 </div>
                 <div className="dropDownItem">
                     <img src={SettingsIcon} alt='' />
