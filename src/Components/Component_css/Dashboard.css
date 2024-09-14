@@ -1,0 +1,256 @@
+.dash-container{
+    margin-top: 10vh;
+    margin-left: auto;
+}
+
+/* .dash-inner-container{
+    /* display: flex;
+    
+} 
+ */
+.side-nav{
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    float: left;
+    width: 20vh;
+    height: 95vh;
+}
+
+.side-nav-options li{
+    margin: 40px 20px;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+.side-nav-options li:hover{
+    background-color:azure;
+}
+
+.dash-info{
+    width: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-small-box{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    justify-content: space-around; 
+    overflow: hidden;
+    align-items: center;
+
+}
+.box{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box img{
+    width: 3vh;
+    height: 3vh;
+    float: right;
+    margin-right: 15px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.box h3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box span{
+    padding: 10px 10px;
+}
+
+.growth{
+    display: flex;
+
+}
+
+
+.right-big-box{
+    width: 70vh;
+    overflow: hidden;
+    margin-left: 10%;
+}
+
+.order-details{
+    background-color: white;
+    height: 40vh;
+    align-items: center; 
+    justify-content: center;
+    overflow: auto;
+    padding: 0px 15px;
+}
+table {
+    width: 100%; /* Table takes up full width of its container */
+    border-collapse: collapse; /* Removes gaps between borders */
+    margin: 20px 0; /* Adds margin around the table */
+  }
+
+  th, td {
+    border: 1px solid #ddd; /* Light border around cells */
+    padding: 12px; /* Consistent padding for all cells */
+    text-align: left; /* Align text to the left */
+    vertical-align: middle; /* Vertically center content */
+    box-sizing: border-box; /* Include padding and border in cell width */
+  }
+
+  th {
+    background-color: #f2f2f2; /* Light background for header */
+    font-weight: bold; /* Bold text for headers */
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row colors */
+  }
+
+  .dash-home{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .dash-home ul{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    margin-left: 1vh;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .dash-home a{
+    text-decoration: none;
+    color: black;
+  }
+  .dash-home ul img{
+    width: 4vh;
+    height: 3.5vh;
+    padding: 0px 6px;
+  }
+
+  .right-big-box{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 5vh;
+    height: 40vh;
+  }
+
+  .add-nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: rgba(28, 238, 9, 0.4) 0px 0px 0px 2px, rgba(4, 248, 236, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    /* background-color: #ddd; */
+  }
+  
+  .add-nav a{
+    text-decoration: none;
+    color: black;
+  }
+  .add-nav ul li:hover{
+    transform: scale(1.1);
+  }
+
+  .service-form h3{
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px;
+
+  }
+  .service-1 form{
+    padding: 0px 15px;
+    position:relative;
+  }
+
+  .service-1 form h4{
+    padding: 10px;
+    font-size: large;
+
+  }
+
+  .service-1 form input{
+    width: 90%;
+    margin-left: 10px;
+    padding: 7.1px;
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 1em; 
+    width: calc(100% - 22px); 
+    box-shadow: rgba(28, 238, 9, 0.4) 0px 0px 0px 1px, rgba(4, 248, 236, 0.65) 0px 2px 4px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+  }
+  .service-1 input::placeholder {
+    color: #888; /* Placeholder text color */
+  }
+  
+  .next{
+    padding: 7px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 241, 230);
+    width: 15px;
+    margin:15px auto;
+    cursor: pointer;
+  }
+
+  .service-2 form{
+    padding: 0px 15px;
+    position:relative;
+  }
+
+.service-2 label{
+    padding: 10px;
+}
+.service-2 form h4{
+    padding: 10px;
+    font-size: large;
+  }
+.service-2 input{
+    width: 90%;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 1em; 
+    width: calc(100% - 22px); 
+    box-shadow: rgba(28, 238, 9, 0.4) 0px 0px 0px 1px, rgba(4, 248, 236, 0.65) 0px 2px 4px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.service-3 form{
+    padding: 0px 15px;
+    position:relative;
+  }
+
+.service-3 label{
+    padding: 10px;
+}
+.service-3 form h4{
+    padding: 10px;
+    font-size: large;
+  }
+.service-3 input{
+    width: 90%;
+    margin-left: 10px;
+    padding: 7.1px;
+    background-color: white;
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 1em; 
+    width: calc(100% - 22px); 
+    box-shadow: rgba(28, 238, 9, 0.4) 0px 0px 0px 1px, rgba(4, 248, 236, 0.65) 0px 2px 4px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}

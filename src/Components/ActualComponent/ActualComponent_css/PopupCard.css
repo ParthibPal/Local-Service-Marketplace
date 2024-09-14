@@ -1,0 +1,36 @@
+.popupcard-container{
+    /* background-color: red; */
+    background-image: linear-gradient(to bottom right, #5dade2, #1f618d);
+    height: 80vh;
+    width:100vh;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* color: white; */
+    font-family: "Outfit", sans-serif;
+    /* border: 1px solid black; */
+    
+}
+.popupcard-heading{
+    /* background-color: aqua; */
+    height: 10vh;
+    width: 95%;
+    margin: auto;
+    /* display: flex; */
+    align-items: center;
+    font-size: 25px;
+    padding-top: 1rem;
+}
+.popupcard-content{
+    /* background-color: blueviolet; */
+    width: 95%;
+    height: auto;
+    margin-inline: auto;
+    display: grid;
+    gap: 2rem;
+
+    
+    /* margin-top: 2rem; */
+    
+}

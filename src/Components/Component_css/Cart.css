@@ -1,0 +1,138 @@
+.cart-conatiner {
+    /* background-color: red; */
+    height: auto;
+    margin-top: 8rem;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.shopping-cart-container {
+    /* background-color: aqua; */
+    box-shadow: 5px 5px 10px #1f618d2d;
+    border-radius: 10px;
+    height: auto;
+    width: 70%;
+    margin-inline: auto;
+
+}
+
+.shopping-cart-container-heading {
+    /* background-color: beige; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-inline: 2rem;
+    padding-top: 2rem;
+
+    font-size: 30px;
+}
+
+.cart-hr {
+    margin-inline: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.shopping-cart-items {
+    /* background-color: white; */
+
+    height: 25vh;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.shopping-cart-items img {
+    object-fit: cover;
+    height: 8rem;
+    width: 12rem;
+    margin: auto;
+}
+
+.shopping-cart-items-desc {
+    /* background-color: yellow; */
+    height: 8rem;
+    width: 55%;
+    margin-inline: 2rem;
+    display: grid;
+    margin: auto;
+}
+
+.shopping-cart-items-price {
+    /* background-color: violet; */
+    margin: auto;
+    position: relative;
+    height: 8rem;
+    width: 13.4rem;
+}
+
+.shopping-cart-items-heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.doorstep-certified{
+    color: #2ecc71;
+
+}
+
+.shopping-cart-items-price-percent {
+    background-color: red;
+    padding-inline: .5rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.shopping-cart-items-price-value {
+    font-size: 25px;
+    float: right;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.cart-price-container {
+    /* background-color: brown; */
+    /* border: 1px solid #1f618d; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1f618d2d;
+    height: 20vh;
+    width: 20%;
+    margin-inline: auto;
+}
+
+.cart-price-heading{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.cart-price-total{
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+
+.cart-price-pay-btn{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #5dade2 ;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+.cart-price-pay-btn:hover {
+    background-color: #1f618d;
+    
+}

@@ -1,0 +1,117 @@
+.services-hr {
+    border-bottom: 0.1px solid black;
+    margin-bottom: 2rem;
+    margin-inline: 2rem;
+}
+
+.services-heading {
+    color: #1f618d;
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-inline: 20px;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.services-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 50px;
+
+}
+
+
+/* Pop-up Box CSS */
+
+.btn-modal{
+    cursor: pointer;
+}
+
+
+
+.modal, .overlay{
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.339);
+}
+
+.modal-content{
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.modal-content{
+
+}
+
+.close-modal-btn{
+    position: absolute;
+    z-index: 1;
+    margin-left: 38rem;
+    margin-top: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-inline: 1rem;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.popup-box {
+    /* background-color: #1f618d; */
+    height: 60vh;
+    width: 100vh;
+    margin-top: 20rem;
+    /* margin: auto; */
+    position: absolute;
+    /* left: 27%; */
+    /* display: flex; */
+    /* display: grid; */
+    /* z-index: -1000000000000000; */
+
+}
+.popup-box-btn{
+    position: absolute;
+    right: 30%;
+    margin-top: 1rem;
+    z-index: 1;
+    padding: .5rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #1f618d;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .2s linear;
+}
+.popup-box-btn:hover{
+    cursor: pointer;
+    background-color: #5dade2;
+    /* color: #1f618d; */
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.375);
+}
+

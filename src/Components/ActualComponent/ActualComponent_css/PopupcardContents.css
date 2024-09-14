@@ -1,0 +1,82 @@
+.popupcardcontents-container{
+    background-color: white;
+    height: 35vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.popupcardcontents-dp{
+    /* background-color: red; */
+    height: 25vh;
+    width: 25vh;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.popupcardcontents-dp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.popupcardcontents-data{
+    /* background-color: aquamarine; */
+    height: auto;
+    width: 60%;
+    margin: auto;
+    /* padding-top: 2rem; */
+    /* padding-inline:2rem ; */
+
+}
+
+.popupcardcontents-data .name{
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.sales-data-conatiner{
+    background-color: #d6dbdf;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.popupcardcontents-btn{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.popupcardcontents-btn button{
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    /* background-color: #1f618d; */
+}
+.popupcardcontents-btn .follow{
+    border: 2px solid #1f618d ;
+    background-color: white;
+    color: #1f618d ;
+    cursor: pointer;
+}
+.popupcardcontents-btn .book{
+    border: none;
+    background-color: #1f618d;
+    color: white;
+    cursor: pointer;
+}
