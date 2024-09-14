@@ -4,7 +4,7 @@ import Avatar from '../Images/avatar.png'
 import CustomerSupport from './CustomerSupport'
 import HomeCards from './HomeCards'
 import ProfileDropdown from './ProfileDropdown'
-import { NavLink,useNavigate } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 
 import Logo from '../Images/logo.png'
 import SearchLogo from '../Images/search-b.png'
@@ -20,12 +20,12 @@ const Navbar = () => {
                         <img src={Logo} />
                     </div>
                     <div className='links'>
-                        <label><NavLink to='/Local-Service-Marketplace/'>Home</NavLink></label>
-                        <label><NavLink to='/Local-Service-Marketplace/services'>Services</NavLink></label>
-                        <label><NavLink to='/Local-Service-Marketplace/customersupport'>Customer Support</NavLink></label>
+                        <label><Link to='/Local-Service-Marketplace/'>Home</Link></label>
+                        <label><Link to='/Local-Service-Marketplace/services'>Services</Link></label>
+                        <label><Link to='/Local-Service-Marketplace/customersupport'>Customer Support</Link></label>
                     </div>
                     <div className='cart-logo' onClick={() => navigate('/Local-Service-Marketplace/cart')}>
-                        <i class="fa-solid fa-cart-shopping "></i>
+                        <i className="fa-solid fa-cart-shopping "></i>
                         <label>4</label> 
                     </div>
                     <div className='search-box'>
