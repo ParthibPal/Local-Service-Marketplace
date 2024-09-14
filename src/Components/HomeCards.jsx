@@ -296,7 +296,7 @@ const HomeCards = () => {
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <SwiperSlide><Card imageSrc="/images/Personal Chef.jpg" name="Personal Chef" desc="Enjoy gourmet meals prepared by a professional chef at home." /></SwiperSlide>
+          <SwiperSlide><Card imageSrc="images/Personal Chef.jpg" name="Personal Chef" desc="Enjoy gourmet meals prepared by a professional chef at home." /></SwiperSlide>
           <SwiperSlide><Card imageSrc="/images/Lawn Care Services.jpg" name="Lawn Care Services" desc="Keep your lawn healthy and well-maintained." /></SwiperSlide>
           <SwiperSlide><Card imageSrc="/images/Painting Services.jpg" name="Painting Services" desc="Intexterior painting services for homes and businesses." /></SwiperSlide>
           <SwiperSlide><Card imageSrc="/images/Event Planning.jpg" name="Event Planning" desc="Plan and organize memorable events with professional assistance." /></SwiperSlide>
