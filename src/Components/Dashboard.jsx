@@ -30,7 +30,7 @@ const Dashboard = () => {
                         <ul>
                             <img src={HomeIcon} alt='' />
                             <li><a href='/'>Home/</a></li>
-                            <li><a href='/dashboard'>Dashboard</a></li>
+                            <li><a href='/Local-Service-Marketplace/dashboard'>Dashboard</a></li>
                         </ul>
                     </div>
                     <div className="dash-info">
